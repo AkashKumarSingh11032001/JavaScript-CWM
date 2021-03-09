@@ -63,6 +63,22 @@ selectedColor[2] = 'green';
 console.log(selectedColor);
 console.log(selectedColor.length);
 
+//class 7 Function
+
+function greet(myName, latname) {
+    console.log("Hello " + myName + ' ' + latname);
+}
+
+greet("Akash","singh");
+greet("Sweety","singh");
+
+//class 8 performing a task
+function square(num) {
+    return num*num;
+}
+console.log(square(20));
+console.log(square(10));
+
 
 
 
